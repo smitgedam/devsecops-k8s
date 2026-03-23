@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: smitgedam/devsecops-backend:v5
+        image: smitgedam/devsecops-backend:v6
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 5000
