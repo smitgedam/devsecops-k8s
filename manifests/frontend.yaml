@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: smitgedam/devsecops-frontend:v14
+        image: smitgedam/devsecops-frontend:v15
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
